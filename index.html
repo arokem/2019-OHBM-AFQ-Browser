@@ -278,7 +278,7 @@
 	</section>
 
     <section>
-        <p><em>Tractometry</em></p>
+        <p>Automated Fiber Quantification (<em>Tractometry</em>)</p>
         <div class="row">
             <div class="imgcite two-col">
                 <img class="fragment" data-fragment-index="1" src="img/pyafq_cst.png">
@@ -289,7 +289,9 @@
         <p class="fragment" data-fragment-index="2">Amyotrophic Lateral Sclerosis (ALS)</p>
             </div>
         <div class="cite fragment" data-fragment-index="2">
-			<a href="https://onlinelibrary.wiley.com/doi/abs/10.1002/hbm.23412">Sarica et al. (2017)</a>
+            <a href="https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0049790">Yeatman et al. (2012)</a>
+            <br>
+            <a href="https://onlinelibrary.wiley.com/doi/abs/10.1002/hbm.23412">Sarica et al. (2017)</a>
 
         </div>
     </section>
@@ -305,14 +307,34 @@
 	</section>
 
     <section>
-        <h3>Exploratory data analysis</h3>
-        <div class="row">
-        <div class="imgcite two-col">
-        <img src="img/EDA.jpg" width=348>
-        </div>
-        <div class="imgcite two-col">
-        <img src="img/John_Tukey.jpg" width=220>
-        </div>
+            <h3>Exploratory data analysis</h3>
+            <div class="row">
+            <div class="imgcite two-col">
+            <img src="img/EDA.jpg" width=348>
+            </div>
+            <div class="imgcite two-col">
+            <img src="img/John_Tukey.jpg" width=220>
+            </div>
+    </section>
+
+    <section>
+        <h3>Linking and brushing</h3>
+        <video width="800" autoplay loop>
+                <source src="./img/linking_and_brushing.mov">
+        </video>
+
+    </section>
+
+    <section>
+            <h2> Exploratory data analysis</h2>
+
+            <p class="fragment">Enhances published results<p>
+            <p class="fragment">Linked visualizations facilitate easy exploration</p>
+            <p class="fragment">Enables new discoveries in old datasets</p>
+
+            <div class="cite" style="position: absolute; left:380px">
+                <a href="https://www.nature.com/articles/s41467-018-03297-7">Yeatman, Richie-Halford, Smith, Keshavan & Rokem (2018), Nature Communications</a>
+            </div>
     </section>
 
 	<section>
@@ -324,7 +346,7 @@
 		<div class="cite" style="position: absolute; left:380px">
 			<a href="https://www.nature.com/articles/s41467-018-03297-7">Yeatman, Richie-Halford, Smith, Keshavan & Rokem (2018), Nature Communications</a>
 		</div>
-	</section>
+    </section>
 
 	<section>
 		<h3><a href="https://yeatmanlab.github.io/Sarica_2017">https://yeatmanlab.github.io/Sarica_2017</a></h3>
@@ -340,16 +362,19 @@
 	</section>
 
     <section>
-		<h2> Exploratory data analysis</h2>
+            <h2> Exploratory data analysis</h2>
 
-		<p class="fragment">Enhances published results<p>
-		<p class="fragment">Linked visualizations facilitate easy exploration</p>
-		<p class="fragment">Enables new discoveries in old datasets</p>
+            <p class="fragment">Enhances published results<p>
+            <p class="fragment">Linked visualizations facilitate easy exploration</p>
+            <p class="fragment">Enables new discoveries in old datasets</p>
 
-		<div class="cite" style="position: absolute; left:380px">
-            <a href="https://www.nature.com/articles/s41467-018-03297-7">Yeatman, Richie-Halford, Smith, Keshavan & Rokem (2018), Nature Communications</a>
-        </div>
-	</section>
+            <p class="fragment">
+            <a href="https://yeatmanlab.github.io/AFQBrowser-demo/?table[prevSort][count]=3&table[prevSort][order]=ascending&table[prevSort][key]=Age&table[sort][count]=3&table[sort][order]=descending&table[sort][key]=Age&plots[zoom][rd][scale]=1&plots[zoom][rd][translate][0]=0&plots[zoom][rd][translate][1]=0&plots[zoom][fa][scale]=1&plots[zoom][fa][translate][0]=0&plots[zoom][fa][translate][1]=0&plots[checkboxes][left-corticospinal]=true&plots[checkboxes][left-cingulum-cingulate]=true&plots[checkboxes][left-arcuate]=true&plots[plotKey]=fa&plots[brushTract]=true&plots[errorType]=stderr&plots[lineOpacity]=0&plots[brushes][left-corticospinal][brushOn]=true&plots[brushes][left-corticospinal][brushExtent][0]=51.83098591549295&plots[brushes][left-corticospinal][brushExtent][1]=80&three[cameraPosition][x]=-13.136649031932244&three[cameraPosition][y]=-1.2083542529433866&three[cameraPosition][z]=7.139210895556083" target="_blank">Example</a></p>
+
+            <div class="cite" style="position: absolute; left:380px">
+                <a href="https://www.nature.com/articles/s41467-018-03297-7">Yeatman, Richie-Halford, Smith, Keshavan & Rokem (2018), Nature Communications</a>
+            </div>
+    </section>
 
 	<section>
 		<h2>Automatic data sharing</h2>
@@ -397,9 +422,17 @@
 
 
 	<section>
-		<a href="https://github.com/yeatmanlab/pyAFQ">https://github.com/yeatmanlab/pyAFQ</a>
-    </section>
+        <h3 class="fragment">Install</h3>
+        <p class="fragment"><tt>pip install afqbrowser</tt></p>
 
+        <h3 class="fragment">CLI</h3>
+        <tt class="fragment">afqbrowser-assemble</tt><br>
+        <tt class="fragment">afqbrowser-run</tt><br>
+        <tt class="fragment">afqbrowser-upload</tt><br>
+
+        <h3 class="fragment">Code</h3>
+        <a class="fragment" href="https://github.com/yeatmanlab/pyAFQ">https://github.com/yeatmanlab/pyAFQ</a>
+    </section>
 
 	<section>
 
